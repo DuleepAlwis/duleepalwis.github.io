@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/duleepalwis.github.io/static/css/main.4d6575dc.css",
+    "main.js": "/duleepalwis.github.io/static/js/main.d1c6e441.js",
+    "static/js/453.4aff6364.chunk.js": "/duleepalwis.github.io/static/js/453.4aff6364.chunk.js",
+    "static/media/website-image.png": "/duleepalwis.github.io/static/media/website-image.1f4704fd3c92063261bd.png",
+    "static/media/yimg.png": "/duleepalwis.github.io/static/media/yimg.be1eb6814c3764a2bfe4.png",
+    "static/media/logo.svg": "/duleepalwis.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/duleepalwis.github.io/index.html",
+    "main.4d6575dc.css.map": "/duleepalwis.github.io/static/css/main.4d6575dc.css.map",
+    "main.d1c6e441.js.map": "/duleepalwis.github.io/static/js/main.d1c6e441.js.map",
+    "453.4aff6364.chunk.js.map": "/duleepalwis.github.io/static/js/453.4aff6364.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d6575dc.css",
+    "static/js/main.d1c6e441.js"
+  ]
+}
