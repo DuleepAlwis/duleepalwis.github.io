@@ -18,12 +18,12 @@ export const About = ()=>{
          <Container sx={{margintTop:"11px"}}>
      <Row>
         <Col xs={4}></Col>
-        <Col xs={5}><h1><Badge bg="secondary">Career Profile</Badge></h1></Col>
+        <Col xs={5}><h1 style={{color:"white"}}>Duleep's Profile</h1></Col>
      </Row>
       <Row>
         
         <Col xs={6} md={4}>
-          <Image src={yimg} width="80%" height="80%" roundedCircle />
+          <Image src={yimg} width="80%" height="80%" thumbnail roundedCircle />
         </Col>
 
         <Col xs={6} md={8}>
@@ -31,7 +31,7 @@ export const About = ()=>{
                 <div id="home" style={{"width":"100%",color:"white"}}><h3>About me</h3></div>
 
                 <p><i style={{color:"white"}}>
-                I followed my Bsc in Computer Science degree from University of Colombo and I am a professionally a software engineer. Currently I have got 4+ experience in Software engineering industry.  I am an energetic, tech enthusiat, smart working guy and willing to learn new technology trends.
+                My name is Duleep Alwis. I followed my Bsc in Computer Science degree from University of Colombo and I am a professionally a software engineer. Currently I have got 4+ experience in Software engineering industry.  I am an energetic, tech enthusiat, smart working guy and willing to learn new technology trends.
                 </i></p>
             
             {/* <Accordion defaultActiveKey="0" width="100%">
@@ -46,8 +46,8 @@ export const About = ()=>{
         </Row>
 
         <Row>
-            <Col id="techStack" xs={6} md={7}>
-                <h3 style={{"color":"white"}}>Technologies & Tools</h3> 
+            <Col xs={6} md={7}>
+                <h3 id="Techstack" style={{"color":"white"}}>Technologies & Tools</h3> 
                 <ul style={{"color":"white"}}>
                     <li>Java (8/17/21),Javascript</li>
                     <li>Sql, Oracle Database, Mysql Database.</li>
@@ -55,18 +55,20 @@ export const About = ()=>{
 
                     <li>Html,Css,Java server pages</li>
                     <li>JBOSS,Docker</li>
+                    <li>Eclipse,Docker Desktop,Intellij idea,vs-code,Mysql workbench</li>   
+
 
                 </ul>
             </Col>
 
             
-            <Col id="techStack" xs={6} md={5}>
+            <Col xs={6} md={5}>
             <Image src={web} width="80%" height="80%" thumbnail />
             </Col>
         </Row>
 
         <Row>
-            <Col id="experience" xs={6} md={8}>
+            <Col id="experience" xs={6} md={7}>
                 <h3 style={{"color":"white"}}>Experience</h3> 
                 <ul style={{"color":"white"}}>
                     <li>2020-07 - 2021-07 Software Engineer Intern - Virtusa (pvt) Ltd</li>
@@ -140,7 +142,7 @@ export const About = ()=>{
         </div>
         </Col>
       </Row>
-      
+      <hr></hr>
       <Row>
         <Col xs="6" md={12} style={{"color":"white"}}>
                 <div>
@@ -252,6 +254,13 @@ Contributions
 </ul>
                 </p>
 
+            </Col>
+
+        </Row>
+        <Row>
+            <Col xs="6" md={12} style={{"color":"white"}}>
+            Apart from my main projects I have contributed to some R&D projects also when I am avaiable to them. 
+            Apart from these career related things in my leisure time I listen to both classis and recently released musica and watch tv-series and movies. Playing pc games , pllaystation games also one of my hobby. Writing technical articles amd doing research and try learn them is also amonhg the thing I do in my leisure time.
             </Col>
         </Row>
     </Container>

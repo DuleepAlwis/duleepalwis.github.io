@@ -6,12 +6,11 @@ import {Home} from "./components/Home";
 function App() {
   return (
    <>
-   <Home/>
-      {/* <BrowserRouter basename='/duleepalwis.github.io'> 
+      <BrowserRouter> 
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
-    </BrowserRouter> */}
+    </BrowserRouter> 
     </>
   );
 }

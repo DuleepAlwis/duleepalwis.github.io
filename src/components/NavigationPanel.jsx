@@ -19,7 +19,7 @@ return (<>
             <Nav.Link href="#home">About</Nav.Link>
             <Nav.Link href="#Techstack">Technologies</Nav.Link>
             <Nav.Link href="#experience">Experience</Nav.Link>
-                        <Nav.Link href="projects">Projects</Nav.Link>
+                        <Nav.Link href="#projects">Projects</Nav.Link>
 
             
 
