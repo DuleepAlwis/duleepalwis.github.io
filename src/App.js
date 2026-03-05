@@ -6,7 +6,7 @@ import {Home} from "./components/Home";
 function App() {
   return (
    <>
-      <BrowserRouter>
+      <BrowserRouter basename='/duleepalwis.github.io'> 
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>

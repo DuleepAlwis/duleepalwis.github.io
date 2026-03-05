@@ -17,7 +17,7 @@ return (<>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" variant="blue">
             <Nav.Link href="#home">About</Nav.Link>
-            <Nav.Link href="#Tech stack">Technologies</Nav.Link>
+            <Nav.Link href="#Techstack">Technologies</Nav.Link>
             <Nav.Link href="#experience">Experience</Nav.Link>
                         <Nav.Link href="projects">Projects</Nav.Link>
 
