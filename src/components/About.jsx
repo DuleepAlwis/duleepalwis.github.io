@@ -29,7 +29,7 @@ export const About = ()=>{
          <Container sx={{margintTop:"11px"}} className="home-bg">
      <Row>
         <Col xs={4}></Col>
-        <Col xs={5}><h1 style={{color:"white"}} ref={textRef} className={`slide-left ${textShow ? "show":""}`}>Duleep's Profile</h1></Col>
+        <Col xs={12} md={6}><h1 style={{color:"white"}} ref={textRef} className={`slide-left ${textShow ? "show":""}`}>Duleep's Profile</h1></Col>
      </Row>
       <Row>
         
@@ -110,11 +110,13 @@ export const About = ()=>{
       <hr></hr>
 
       <Row style={{"color":"white"}}>
-        <Col xs="6" md={12}>
+        <Col xs={12} md={12}>
         <RevealText>
+            <h3 style={{"color":"white"}}>Contributed Projects</h3> 
+
         <div id="projects"> 
             <h3>
-            Incident - Alert -Monitoring System - HyperCare (ASM360) - Virtusa (Pvt) Ltd.
+            <li type="disk">Incident - Alert -Monitoring System - HyperCare (ASM360) - Virtusa (Pvt) Ltd.</li>
             </h3>
             <p>
                 This is a application developed according to micro-services architecture which contained 3 main components and background applications with some VB scripts. 
@@ -144,7 +146,7 @@ export const About = ()=>{
             </p>
 
             <h3>
-            Managed Service Provider - Virtusa (Pvt) Ltd.
+            <li type="disk">Managed Service Provider - Virtusa (Pvt) Ltd.</li>
             </h3>
             <p>
                 This whole application is about managing a network device. It is designed to run commands online and offline modes. The application layer is divided into several micro-services which were written using go-lang.. There is utility software which acts as a transmitter to send and execute commands on this network device. Before writing to the database tables, the message is going through Rabbit MQ queues. Here my role was a devops engineer role which involved tasks such as,
@@ -165,11 +167,11 @@ export const About = ()=>{
       </Row>
       <hr></hr>
       <Row>
-        <Col xs="6" md={12} style={{"color":"white"}}>
+        <Col xs={12} md={12} style={{"color":"white"}}>
         <RevealText>
                 <div>
 
-                    <h3>Document and report management system (Advanced Data Platform) - Rezagateway (Pvt) Ltd</h3>
+                    <h3><li type="disk">Document and report management system (Advanced Data Platform) - Rezagateway (Pvt) Ltd</li></h3>
                 </div>
 
                 <p>
@@ -188,11 +190,11 @@ export const About = ()=>{
 
 
         <Row>
-        <Col xs="6" md={12} style={{"color":"white"}}>
+        <Col xs={12} md={12} style={{"color":"white"}}>
         <RevealText>
                 <div>
 
-                    <h3>Tour Operators Project (Pvt) - Rezgateway (pvt) Ltd</h3>
+                    <h3><li type="disk">Tour Operators Project (Pvt) - Rezgateway (pvt) Ltd</li></h3>
                 </div>
 
                 <p>
@@ -215,11 +217,11 @@ export const About = ()=>{
         </Row>
 
         <Row>
-        <Col xs="6" md={12} style={{"color":"white"}}>
+        <Col xs={12} md={12} style={{"color":"white"}}>
         <RevealText>
                 <div>
 
-                    <h3>Billing system for Mobitel branches - Mobitel (pvt) Ltd</h3>
+                    <h3><li type="disk">Billing system for Mobitel branches - Mobitel (pvt) Ltd</li></h3>
                 </div>
 
                 <p>
@@ -244,11 +246,11 @@ Contributions
 
 
          <Row>
-        <Col xs="6" md={12} style={{"color":"white"}}>
+        <Col xs={12} md={12} style={{"color":"white"}}>
         <RevealText>
                 <div>
 
-                    <h3>Reservation system and inventory management system for Sri Lanka Railway - Mobitel (pvt) Ltd</h3>
+                    <h3><li type="disk">Reservation system and inventory management system for Sri Lanka Railway - Mobitel (pvt) Ltd</li></h3>
                 </div>
 
                 <p>
@@ -283,10 +285,10 @@ Contributions
 
         </Row>
         <Row>
-            <Col xs="6" md={12} style={{"color":"white"}}>
+            <Col xs={12} md={12} style={{"color":"white"}}>
             <RevealText>
-            Apart from my main projects I have contributed to some R&D projects also when I am avaiable to them. 
-            Apart from these career related things in my leisure time I listen to both classis and recently released musica and watch tv-series and movies. Playing pc games , pllaystation games also one of my hobby. Writing technical articles amd doing research and try learn them is also amonhg the thing I do in my leisure time.
+            <i>Apart from my main projects I have contributed to some R&D projects also when I am avaiable to them. 
+            Apart from these career related things in my leisure time I listen to both classis and recently released musica and watch tv-series and movies. Playing pc games , pllaystation games also one of my hobby. Writing technical articles amd doing research and try learn them is also amonhg the thing I do in my leisure time.</i>
             </RevealText>
             </Col>
         </Row>
