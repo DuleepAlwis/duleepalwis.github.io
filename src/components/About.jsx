@@ -2,7 +2,10 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import '../App.css';
+import '../index.css';
+import { useEffect, useRef, useState } from "react";
+import { RevealText, useScrollAnimation } from './AnimationComponent';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
@@ -13,25 +16,32 @@ import Badge from 'react-bootstrap/Badge';
 
 export const About = ()=>{
 
+    
+
+  const [textRef, textShow] = useScrollAnimation();
+  const [imgRef, imgShow] = useScrollAnimation();
+
+
+ 
+
     return(
         <>
-         <Container sx={{margintTop:"11px"}}>
+         <Container sx={{margintTop:"11px"}} className="home-bg">
      <Row>
         <Col xs={4}></Col>
-        <Col xs={5}><h1 style={{color:"white"}}>Duleep's Profile</h1></Col>
+        <Col xs={5}><h1 style={{color:"white"}} ref={textRef} className={`slide-left ${textShow ? "show":""}`}>Duleep's Profile</h1></Col>
      </Row>
       <Row>
         
-        <Col xs={6} md={4}>
-          <Image src={yimg} width="80%" height="80%" thumbnail roundedCircle />
+        <Col xs={6} md={4} ref={imgRef} className={`slide-right ${imgShow ? 'show' : ''}`}>
+          <Image src={yimg} fluid thumbnail roundedCircle />
         </Col>
 
-        <Col xs={6} md={8}>
-            
+        <Col xs={6} md={8} ref={textRef} className={`slide-left ${textShow ? "show":""}`}>
                 <div id="home" style={{"width":"100%",color:"white"}}><h3>About me</h3></div>
 
                 <p><i style={{color:"white"}}>
-                My name is Duleep Alwis. I followed my Bsc in Computer Science degree from University of Colombo and I am a professionally a software engineer. Currently I have got 4+ experience in Software engineering industry.  I am an energetic, tech enthusiat, smart working guy and willing to learn new technology trends.
+                My name is Duleep Alwis. I followed  my Bsc in Computer Science degree from University of Colombo and I am a professionally a software engineer. Currently I have got 4+ experience in Software engineering industry.  I am an energetic, tech enthusiat, smart working guy and willing to learn new technology trends.
                 </i></p>
             
             {/* <Accordion defaultActiveKey="0" width="100%">
@@ -47,6 +57,8 @@ export const About = ()=>{
 
         <Row>
             <Col xs={6} md={7}>
+                        <RevealText>
+
                 <h3 id="Techstack" style={{"color":"white"}}>Technologies & Tools</h3> 
                 <ul style={{"color":"white"}}>
                     <li>Java (8/17/21),Javascript</li>
@@ -59,16 +71,21 @@ export const About = ()=>{
 
 
                 </ul>
+                </RevealText>
             </Col>
 
             
             <Col xs={6} md={5}>
-            <Image src={web} width="80%" height="80%" thumbnail />
+            <div>
+            <Image src={process.env.PUBLIC_URL + "/images/website-image.png"}  fluid thumbnail ref={imgRef} className={`slide-right ${imgShow ? 'show' : ''}`}/>
+
+            </div>
             </Col>
         </Row>
 
         <Row>
             <Col id="experience" xs={6} md={7}>
+            <RevealText>
                 <h3 style={{"color":"white"}}>Experience</h3> 
                 <ul style={{"color":"white"}}>
                     <li>2020-07 - 2021-07 Software Engineer Intern - Virtusa (pvt) Ltd</li>
@@ -78,10 +95,11 @@ export const About = ()=>{
                     <li>2024-06 - Current Software Engineer - Mobitel (Pvt) Ltd.</li>
 
                 </ul>
+                </RevealText>
             </Col>
 
             <Col xs={6} md={4}>
-                <div style={{"color":"white"}}>During my emplouyment in these companies I got the exposure to many industrial scale enterprise applications. How the Agile works ,what technologies are to use at each time.</div>
+                <div style={{"color":"white"}}>During my employment in these companies I got the exposure to many industrial scale enterprise level applications. How the Agile works ,what technologies are to use at each time.</div>
             </Col>
 
         </Row>
@@ -93,6 +111,7 @@ export const About = ()=>{
 
       <Row style={{"color":"white"}}>
         <Col xs="6" md={12}>
+        <RevealText>
         <div id="projects"> 
             <h3>
             Incident - Alert -Monitoring System - HyperCare (ASM360) - Virtusa (Pvt) Ltd.
@@ -140,11 +159,14 @@ export const About = ()=>{
                  </p>
             
         </div>
+        </RevealText>
+        
         </Col>
       </Row>
       <hr></hr>
       <Row>
         <Col xs="6" md={12} style={{"color":"white"}}>
+        <RevealText>
                 <div>
 
                     <h3>Document and report management system (Advanced Data Platform) - Rezagateway (Pvt) Ltd</h3>
@@ -160,13 +182,14 @@ export const About = ()=>{
 
                 </ul>
                 </p>
-
+</RevealText>
             </Col>
         </Row>
 
 
         <Row>
         <Col xs="6" md={12} style={{"color":"white"}}>
+        <RevealText>
                 <div>
 
                     <h3>Tour Operators Project (Pvt) - Rezgateway (pvt) Ltd</h3>
@@ -187,12 +210,13 @@ export const About = ()=>{
 
                 </ul>
                 </p>
-
+</RevealText>
             </Col>
         </Row>
 
         <Row>
         <Col xs="6" md={12} style={{"color":"white"}}>
+        <RevealText>
                 <div>
 
                     <h3>Billing system for Mobitel branches - Mobitel (pvt) Ltd</h3>
@@ -214,13 +238,14 @@ Contributions
 <li>Bug fixing.</li>
 </ul>
                 </p>
-
+</RevealText>
             </Col>
         </Row>
 
 
          <Row>
         <Col xs="6" md={12} style={{"color":"white"}}>
+        <RevealText>
                 <div>
 
                     <h3>Reservation system and inventory management system for Sri Lanka Railway - Mobitel (pvt) Ltd</h3>
@@ -253,14 +278,16 @@ Contributions
 
 </ul>
                 </p>
-
+</RevealText>
             </Col>
 
         </Row>
         <Row>
             <Col xs="6" md={12} style={{"color":"white"}}>
+            <RevealText>
             Apart from my main projects I have contributed to some R&D projects also when I am avaiable to them. 
             Apart from these career related things in my leisure time I listen to both classis and recently released musica and watch tv-series and movies. Playing pc games , pllaystation games also one of my hobby. Writing technical articles amd doing research and try learn them is also amonhg the thing I do in my leisure time.
+            </RevealText>
             </Col>
         </Row>
     </Container>

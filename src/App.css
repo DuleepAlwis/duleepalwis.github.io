@@ -1,8 +1,13 @@
 .App {
   text-align: center;
+
+}
+
+.home-bg{
+  background-color:linear-gradient(#0000FF, #008000); 
 }
 body{
-  background-color: #00008B;
+  background-color:linear-gradient(#0000FF, #008000); 
 }
 .App-logo {
   height: 40vmin;
