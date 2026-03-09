@@ -30,9 +30,10 @@ export const About = ()=>{
      <Row>
         <Col xs={4}></Col>
         <Col xs={12} md={6}><h1 style={{color:"white"}} ref={textRef} className={`slide-left ${textShow ? "show":""}`}>Hi, I'm Duleep Alwis
-            </h1><h4>Full Stack Software Engineer | I build scalable backend systems with Java and modern web applications with React/Angular.</h4></Col>
+            </h1><i style={{color:"white","fontSize":"18px"}} ref={textRef} className={`slide-left ${textShow ? "show":""}`}>Full Stack Software Engineer | I build scalable backend systems with Java and modern web applications with React/Angular.</i></Col>
 
      </Row>
+     <hr style={{color:"black"}}></hr>
       <Row>
         
         <Col xs={6} md={4} ref={imgRef} className={`slide-right ${imgShow ? 'show' : ''}`}>
@@ -42,8 +43,8 @@ export const About = ()=>{
         <Col xs={6} md={8} ref={textRef} className={`slide-left ${textShow ? "show":""}`}>
                 <div id="home" style={{"width":"100%",color:"white"}}><h3>About me</h3></div>
 
-                <p><i style={{color:"white"}}>
-                My name is Duleep Alwis. I followed  my Bsc in Computer Science degree from University of Colombo and I am a professionally a software engineer. Currently I have got 4+ experience in Software engineering industry.  I am an energetic, tech enthusiat, smart working guy and willing to learn new technology trends.
+                <p><i style={{color:"white","fontSize":"18px"}}>
+I hold a BSc in Computer Science from the University of Colombo and currently work as a Software Engineer with over 4 years of industry experience. I am an energetic and passionate technology enthusiast who enjoys designing and building scalable software solutions. I am always eager to learn, improve my skills, and stay up to date with the latest technologies.
                 </i></p>
             
             {/* <Accordion defaultActiveKey="0" width="100%">
@@ -101,7 +102,9 @@ export const About = ()=>{
             </Col>
 
             <Col xs={6} md={4}>
-                <div style={{"color":"white"}}>During my employment in these companies I got the exposure to many industrial scale enterprise level applications. How the Agile works ,what technologies are to use at each time.</div>
+                <div style={{"color":"white"}}>
+                During my professional experience in these organizations, I gained valuable exposure to large-scale enterprise applications. I worked in Agile development environments and learned how modern software teams collaborate to design, build, and deliver high-quality systems. This experience strengthened my ability to choose and apply the right technologies to build efficient, scalable, and maintainable software solutions.
+                </div>
             </Col>
 
         </Row>
@@ -123,12 +126,12 @@ export const About = ()=>{
             <p>
                 This is a application developed according to micro-services architecture which contained 3 main components and background applications with some VB scripts. 
 
-                Dashboard component was developed with Java 8/Spring boot/Angular-8/Material UI/Oriant DB(NoSql Database)
-                Email status monitoring component was developed with Java 8/Spring boot/JPA/Angular 6/bootstrap/Mysql
-                Meta data configuration component which handled , Insertion of Applications(This is like a domain) and Application Owners and etc . was developed with Java 8/JPA/Angular 6/bootstrap/Mysql
+                <b>Dashboard component</b> was developed with Java 8/Spring boot/Angular-8/Material UI/Oriant DB(NoSql Database)
+                ,<b>Email status monitoring component</b> was developed with Java 8/Spring boot/JPA/Angular 6/bootstrap/Mysql
+                ,<b>Meta data configuration component</b> which handled , Insertion of Applications(This is like a domain) and Application Owners and etc . was developed with Java 8/JPA/Angular 6/bootstrap/Mysql
                 database.
                 Background running applications which were used to pull data from APIs , transform that data to send to background application which did the data feed for the database used by the dashboard component after doing calculations for final score was developed with Java 8/Spring boot
-                and they were intergrated with Kafka .
+                and they were intergrated with Apache-Kafka .
 
             I contributed as a full stack software developer for this project. 
             Contribution.
