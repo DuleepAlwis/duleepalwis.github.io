@@ -199,7 +199,7 @@ I hold a BSc in Computer Science from the University of Colombo and currently wo
         <RevealText>
                 <div>
 
-                    <h3><li type="disk">Tour Operators Project (Pvt) - Rezgateway (pvt) Ltd</li></h3>
+                    <h3><li type="disk">Tour Operators Project - Rezgateway (pvt) Ltd</li></h3>
                 </div>
 
                 <p>
