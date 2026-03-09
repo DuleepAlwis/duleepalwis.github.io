@@ -121,7 +121,7 @@ I hold a BSc in Computer Science from the University of Colombo and currently wo
 
         <div id="projects"> 
             <h3>
-            <li type="disk">Incident - Alert -Monitoring System - HyperCare (ASM360) - Virtusa (Pvt) Ltd.</li>
+            <li type="disk">Incident - Alert -Monitoring System {/*- HyperCare (ASM360)*/} - Virtusa (Pvt) Ltd.</li>
             </h3>
             <p>
                 This is a application developed according to micro-services architecture which contained 3 main components and background applications with some VB scripts. 
