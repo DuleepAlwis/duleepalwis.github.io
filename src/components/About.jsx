@@ -29,7 +29,9 @@ export const About = ()=>{
          <Container sx={{margintTop:"11px"}} className="home-bg">
      <Row>
         <Col xs={4}></Col>
-        <Col xs={12} md={6}><h1 style={{color:"white"}} ref={textRef} className={`slide-left ${textShow ? "show":""}`}>Duleep's Profile</h1></Col>
+        <Col xs={12} md={6}><h1 style={{color:"white"}} ref={textRef} className={`slide-left ${textShow ? "show":""}`}>Hi, I'm Duleep Alwis
+            </h1><h4>Full Stack Software Engineer | I build scalable backend systems with Java and modern web applications with React/Angular.</h4></Col>
+
      </Row>
       <Row>
         
