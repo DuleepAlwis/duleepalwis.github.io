@@ -292,7 +292,7 @@ Contributions
         <Row>
             <Col xs={12} md={12} style={{"color":"white"}}>
             <RevealText>
-            <i>Apart from the projects I have contributed , I have contributed to some R&D projects also when I am avaiable to them. 
+            <i>Apart from the projects I have contributed ,I have contributed to some R&D projects also when I am avaiable to them. 
             Other than these career related things in my leisure time I listen to both classis and recently released musics and watch tv-series and movies. Playing pc games , playstation games also one of my hobby. Writing technical articles amd doing research and try learn them is also among the things I do in my leisure time.</i>
             </RevealText>
             </Col>
