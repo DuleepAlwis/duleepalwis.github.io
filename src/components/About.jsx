@@ -180,7 +180,7 @@ I hold a BSc in Computer Science from the University of Colombo and currently wo
                 </div>
 
                 <p>
-                This is the system which act as a interface to their Cargo-wise ERP system. This system supports local client to handle their shipment management services to their 100+ customer base. This helps their branches and departments to handle their logistic documents. Below are the tasks carried out by me in this project
+                This is the system  which act as a interface to their Cargo-wise ERP system. This system supports local client to handle their shipment management services to their 100+ customer base. This helps their branches and departments to handle their logistic documents. Below are the tasks carried out by me in this project
 
                 <ul>
                     <li>Front end development and ui enhancements , code refactoring.</li>
@@ -226,11 +226,11 @@ I hold a BSc in Computer Science from the University of Colombo and currently wo
         <RevealText>
                 <div>
 
-                    <h3><li type="disk">Billing system for Mobitel branches - Mobitel (pvt) Ltd</li></h3>
+                    <h3><li type="disk">Billing system - Mobitel (pvt) Ltd</li></h3>
                 </div>
 
                 <p>
-              This is a postpaid bill payment system for mobitel where customers can come to the counter and pay their postpaid bills . Mobitel branch counter staff involves and do operations with this system.
+              This is a postpaid bill payment system  where customers can come to the counter and pay their postpaid bills . Relevant organization's branch counter staff involves and do operations with this system.
 Various payment schemes, various promotional schemes, bill printing as pdf, customer and manager notification through email and sms, reports generation for management staff are the features
 developped in this system.
 This system was previously written in 4gl and this is developing the system with a new tech stack. It includes user friendly user interface developped using react and material ui and a rest api written using Spring boot who handles data logic and business logic.
