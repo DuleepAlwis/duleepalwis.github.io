@@ -180,7 +180,7 @@ I hold a BSc in Computer Science from the University of Colombo and currently wo
                 </div>
 
                 <p>
-                This is the system which act as a interface to their Cargo-wise ERP system. This system supports EFL client to handle their shipment management services to their 100+ customer base. This helps their branches and departments to handle their logistic documents. Below are the tasks carried out by me in this project
+                This is the system which act as a interface to their Cargo-wise ERP system. This system supports local client to handle their shipment management services to their 100+ customer base. This helps their branches and departments to handle their logistic documents. Below are the tasks carried out by me in this project
 
                 <ul>
                     <li>Front end development and ui enhancements , code refactoring.</li>
@@ -203,7 +203,7 @@ I hold a BSc in Computer Science from the University of Colombo and currently wo
                 </div>
 
                 <p>
-                This is the sales forecasting and tour planning system for Antartica 21 organization, to handle their travel planning and manage those work through an open source application known as Corteza. This is based in docker and it follows modern concept of low code platform. Here I got the chance to work with a foreign client and do client demo to them.
+                This is the sales forecasting and tour planning system for a travel organization, to handle their travel planning and manage those work through an open source application known as Corteza. This is based in docker and it follows modern concept of low code platform. Here I got the chance to work with a foreign client and do client demo to them.
 
 
                 <ul>
@@ -255,12 +255,12 @@ Contributions
         <RevealText>
                 <div>
 
-                    <h3><li type="disk">Reservation system and inventory management system for Sri Lanka Railway - Mobitel (pvt) Ltd</li></h3>
+                    <h3><li type="disk">Reservation system and inventory management system - Mobitel (pvt) Ltd</li></h3>
                 </div>
 
                 <p>
-              Working on the Sri Lanka railway online seat reservation web application and Station master web application for railway station masters to handle day-to-day tasks related to the railway such as operational , inventory management and ticket booking. Web seat reservation platform and it's data logic handling back end rest api is developped using Java 8 and Spring boot. 
-Station master web module for handling railway operations including seat reservation for walking and call-center customers are done through station master module. It is developped using Html,Css,Javascript,Jsp,Java-8.
+              Working on an online seat reservation web application and admin module web application for a local client in Sri Lanka and it's business staff to handle day-to-day tasks related to the business such as operational , inventory management and ticket booking. Web seat reservation platform and it's data logic handling back end rest api is developped using Java 8 and Spring boot. 
+ Web admin module for handling  operations including seat reservation for walking and call-center customers are done through Admin module. It is developped using Html,Css,Javascript,Jsp,Java-8.
 These are the main applications in this system and there are some background scheduled programmes written using Java for automating processes such as handling other operations and for notification
 sending to the customers, invoice generation in a timely manner for the erp.
 I am working on these applications as a full-stack software engineer. 
@@ -278,7 +278,7 @@ Contributions
 <li>Bug fixing.</li>
 <li>Develop solutions for new change requirements.</li>
 <li>Generate excel reports from the database and writing efficient sql queries for them. These reports are used by internal teams for the purpose of financial and system security.</li>
-<li>ive Issue Fixing and operational tasks: Monitor and troubleshoot production issues raised in railway ticket booking system , and do operational tasks as client requests. </li>
+<li>Live Issue Fixing and operational tasks: Monitor and troubleshoot production issues raised in  ticket booking system , and do operational tasks as client requests. </li>
 <li>Develop solutions to smooth some of the lengthy and repetitive tasks such as inventory configuration sql scripts and java applications to generate those sqls.</li>
 <li>Security enhancements and bootstrap/jquery library update according to information security team's suggestions.</li>
 <li>Joined in production releases.</li> 
